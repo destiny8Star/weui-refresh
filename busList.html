@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0" />
+    <title>商户列表</title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/weui/1.1.3/style/weui.min.css">
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/business.css">
+    <link rel="stylesheet" href="../css/refresh.css">
+</head>
+
+<body>
+    <!-- 下拉刷新上拉加载大框 -->
+    <div class="content" style="background-color: #FFFFFF; width: 100%;height:103%; margin-top: -0.6rem;position: absolute; padding:0px; overflow: hidden;">
+        <div class="list-main-mian weui-form-preview infinite weui-pull-to-refresh" id="listwrap" style="height:100%; margin-top: 1px;overflow:auto;  z-index: 1">
+            <!--下拉刷新-->
+            <div class="weui-pull-to-refresh__layer" style="padding: 5px;">
+                <div class="weui-pull-to-refresh__arrow"></div>
+                <div class="weui-pull-to-refresh__preloader"></div>
+                <div class="down">下拉刷新</div>
+                <div class="up">释放刷新</div>
+                <div class="refresh">正在刷新</div>
+            </div>
+            <div class="weui-form-preview" id="Tolist">
+                <!--内容展示区域-->
+                <!-- 顶部搜索栏 -->
+                <section class="bus-top flex_bet">
+                    <div class="input flex_bet"><img src="../img/SS.png" alt=""> <input type="text" placeholder="搜索商铺"></div>
+                    <img src="img/XX.png" alt="">
+                </section>
+                <!-- 商店 -->
+                <section class="bus-store">
+                    <a href="detail.html">
+                        <div class="store-item flex">
+                            <div class="store-item-img"><img src="../img/DP.png" alt=""></div>
+                            <div class="store-item-woc">
+                                <h3 class="store-tit">优卡可可</h3>
+                                <div class="store-det"><span>烘焙糕点面包</span> | <span>人气336</span></div>
+                                <p class="store-add">滨江区立业路长江西苑58号商铺</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <div class="store-item flex">
+                        <div class="store-item-img"><img src="../img/DP.png" alt=""></div>
+                        <div class="store-item-woc">
+                            <h3 class="store-tit">优卡可可</h3>
+                            <div class="store-det"><span>烘焙糕点面包</span> | <span>人气336</span></div>
+                            <p class="store-add">滨江区立业路长江西苑58号商铺滨江区立业路长江西苑58号商铺滨江区立业路长江西苑58号商铺滨江区立业路长江西苑58号商铺</p>
+                        </div>
+                    </div>
+                    <div class="store-item flex">
+                        <div class="store-item-img"><img src="../img/DP.png" alt=""></div>
+                        <div class="store-item-woc">
+                            <h3 class="store-tit">优卡可可</h3>
+                            <div class="store-det"><span>烘焙糕点面包</span> | <span>人气336</span></div>
+                            <p class="store-add">滨江区立业路长江西苑58号商铺</p>
+                        </div>
+                    </div>
+                    <div class="store-item flex">
+                        <div class="store-item-img"><img src="../img/DP.png" alt=""></div>
+                        <div class="store-item-woc">
+                            <h3 class="store-tit">优卡可可</h3>
+                            <div class="store-det"><span>烘焙糕点面包</span> | <span>人气336</span></div>
+                            <p class="store-add">滨江区立业路长江西苑58号商铺</p>
+                        </div>
+                    </div>
+                    <div class="store-item flex">
+                        <div class="store-item-img"><img src="../img/DP.png" alt=""></div>
+                        <div class="store-item-woc">
+                            <h3 class="store-tit">优卡可可</h3>
+                            <div class="store-det"><span>烘焙糕点面包</span> | <span>人气336</span></div>
+                            <p class="store-add">滨江区立业路长江西苑58号商铺</p>
+                        </div>
+                    </div>
+                    <div class="store-item flex">
+                        <div class="store-item-img"><img src="../img/DP.png" alt=""></div>
+                        <div class="store-item-woc">
+                            <h3 class="store-tit">优卡可可</h3>
+                            <div class="store-det"><span>烘焙糕点面包</span> | <span>人气336</span></div>
+                            <p class="store-add">滨江区立业路长江西苑58号商铺</p>
+                        </div>
+                    </div>
+                    <div class="store-item flex">
+                        <div class="store-item-img"><img src="../img/DP.png" alt=""></div>
+                        <div class="store-item-woc">
+                            <h3 class="store-tit">优卡可可</h3>
+                            <div class="store-det"><span>烘焙糕点面包</span> | <span>人气336</span></div>
+                            <p class="store-add">滨江区立业路长江西苑58号商铺滨江区立业路长江西苑58号商铺滨江区立业路长江西苑58号商铺</p>
+                        </div>
+                    </div>
+                    <div class="store-item flex">
+                        <div class="store-item-img"><img src="../img/DP.png" alt=""></div>
+                        <div class="store-item-woc">
+                            <h3 class="store-tit">优卡可可</h3>
+                            <div class="store-det"><span>烘焙糕点面包</span> | <span>人气336</span></div>
+                            <p class="store-add">滨江区立业路长江西苑58号商铺 滨江区立业路长江西苑58号商铺滨江区立业路长江西苑58号商铺滨江区立业路长江西苑58号商铺</p>
+                        </div>
+                    </div>
+                </section>
+                <!-- //没有更多数据 -->
+                <div class="weui-cells__title show-more">已无更多数据</div>
+            </div>
+            <!-- style="padding-bottom:30px;height:20px" -->
+            <div class="weui-loadmore">
+                <i class="weui-loading"></i>
+                <span class="weui-loadmore__tips">正在加载</span>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="http://res.wx.qq.com/open/js/jweixin-1.4.0.js"></script>
+<script src="../js/flexible.js"></script>
+<script src="https://cdn.bootcss.com/jquery/1.11.0/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/jquery-weui/1.2.1/js/jquery-weui.min.js"></script>
+<script src="../js/setWx-config.js"></script>
+<script>
+    var baseUrl = "http://test.dianjishenghuo.cn" //域名
+        //$.showLoading("数据加载中"); $.hideLoading();
+        //获取jssdk权限
+    let wxList = ["getLocation"]
+    getconfig(timestamp, nonceStr, wxList)
+
+    function getLoc() {
+        wx.getLocation({
+            type: 'wgs84', // 默认为wgs84的gps坐标，如果要返回直接给openLocation用的火星坐标，可传入'gcj02'
+            success: function(res) {
+                console.log("获取位置", res)
+                var latitude = res.latitude; // 纬度，浮点数，范围为90 ~ -90
+                var longitude = res.longitude; // 经度，浮点数，范围为180 ~ -180。
+                var speed = res.speed; // 速度，以米/每秒计
+                var accuracy = res.accuracy; // 位置精度
+            },
+            fail: function() {
+                console.log("点击取消")
+            }
+        });
+    }
+    wx.ready(function() {
+        getLoc()
+    });
+    //手动获取
+    $(".weui-btn").click(function() {
+            console.log("aa")
+            getLoc()
+        })
+        //-----------------------------------------------------------------------------------------------------
+    var pages = 1;
+    var sizes = 4;
+    var loading = false; //状态标记
+    $(function() {
+            loadlist();
+        })
+        //=========================下拉刷新
+    $("#listwrap").pullToRefresh().on("pull-to-refresh", function() {
+        setTimeout(function() {
+            pages = 1;
+            $("#Tolist").html("");
+            loadlist();
+            if (loading) loading = false;
+            $("#listwrap").pullToRefreshDone(); // 重置下拉刷新
+        }, 1500); //模拟延迟
+    });
+    //============================滚动加载
+    $("#listwrap").infinite().on("infinite", function() {
+        if (loading) return;
+        loading = true;
+        pages++; //页数
+        $(".weui-cells__title").removeClass("show-more")
+        $('.weui-loadmore').show();
+        setTimeout(function() {
+            loadlist();
+            loading = false;
+        }, 2500); //模拟延迟
+    });
+    // =======加载数据loadlist();
+    function loadlist() {
+        var html = "";
+        $.ajax({
+            type: "POST",
+            url: "/Index/Index",
+            data: {
+                'page': pages,
+                'size': sizes
+            },
+            dataType: "json",
+            error: function(request) {
+                $(".weui-loadmore").hide();
+                // html += "<div class=\"weui-cells__title\" >已无更多数据</div>";
+                // $("#Tolist").append(html);
+                $(".weui-cells__title").addClass("show-more")
+            },
+            success: function(data) {
+                if (data.List.length > 0) {
+                    for (var i = 0; i < data.List.length; i++) {
+                        html += ' <div class="weui-form-preview__bd"> ';
+                        html += ' <div class="weui-form-preview__item"> ';
+                        html += ' <label class="weui-form-preview__label">' + data.List[i].Name + '</label> ';
+                        html += ' </div> ';
+                        html += ' </div> ';
+                    }
+                    $("#Tolist").append(html);
+                } else {
+                    $(".weui-cells__title").addClass("show-more")
+                    loading = true;
+                }
+                $(".weui-loadmore").hide();
+            }
+        });
+    }
+</script>
+
+</html>
